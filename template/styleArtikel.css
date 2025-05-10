@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.judul h1{
+    font-size: 32px;
+    padding: 10% 8% 10px 20%;;
+    text-align: justify;
+    font-weight: 600;
+}
+.judul h5{
+    font-size: 15px;
+    padding-left: 20%;
+    padding-bottom: 30px;
+}
+.isi{
+    padding: 0px 8% 8% 20%;;
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+}
+.fotogambar{
+    padding-bottom: 30px;
+    padding-right: 30px;
+    float: left;
+}
+
+.imagedesc{
+    font-size: 12px;
+    color: gray;
+}
+
+.imagedesc a{
+    color: gray;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 10px 20px 20px 20px;
+  z-index: 20;
+  border-radius: 20px;
+}
+
+.popup p{
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.popup button{
+    background-color: white;
+    border: 0;
+    margin-top: 3%;
+    margin-left: 95%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.popup button:hover{
+    color: grey;
+}
+
+.popup .copylink{
+    margin:0;
+    padding: 10px;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.share{
+    font-size: 15px;
+    background-color: white;
+    border: 0;
+    color: red;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.share:hover{
+    color: grey;
+}
+
+.popup a{
+    padding: 10px;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.popup a:hover{
+    color: grey;
+}

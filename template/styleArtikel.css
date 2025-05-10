@@ -19,12 +19,12 @@
     padding-bottom: 30px;
 }
 .isi{
-    padding: 0px 8% 8% 20%;;
+    padding: 0px 8% 8% 20%;
     text-align: justify;
     font-family: "Open Sans", sans-serif;
 }
 .fotogambar{
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     padding-right: 30px;
     float: left;
 }
@@ -110,4 +110,10 @@
 
 .popup a:hover{
     color: grey;
+}
+
+@media(max-width: 800px){
+    .judul h1{
+        font-size: 28px;
+    }
 }

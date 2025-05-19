@@ -9,17 +9,17 @@
 }
 .judul h1{
     font-size: 32px;
-    padding: 10% 8% 10px 20%;;
+    padding: 10% 8% 10px 25%;;
     text-align: justify;
     font-weight: 600;
 }
 .judul h5{
     font-size: 15px;
-    padding-left: 20%;
+    padding-left: 25%;
     padding-bottom: 30px;
 }
 .isi{
-    padding: 0px 8% 8% 20%;
+    padding: 0px 8% 8% 25%;
     text-align: justify;
     font-family: "Open Sans", sans-serif;
 }
@@ -37,7 +37,10 @@
 .imagedesc a{
     color: gray;
 }
-
+mark{
+    background-color:unset;
+    font-weight: bold;
+}
 .overlay {
   position: fixed;
   top: 0;
